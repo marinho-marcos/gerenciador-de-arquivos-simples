@@ -136,7 +136,7 @@ public class GerenciadorDeArquivos {
         } catch (IOException e) {
             System.out.println("Erro ao listar os arquivos: " + e.getMessage());
         }
-        System.out.println("------------------------------------");
+        System.out.println("-------------------------------------");
     }
 
     private static void garantirExistenciaDiretorio() {
